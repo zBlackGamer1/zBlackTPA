@@ -1,0 +1,41 @@
+tempo-pedido: 30 # Tempo para um pedido de teleporte expirar (em segundos).
+
+Mensagens:
+  tpa-incorreto: '&c&lERRO! &cUtilize, /tpa (Jogador).'
+  tpa-desativado: '&c&lERRO! &cEste jogador tem os pedidos desativados.'
+  nao-solicitado: '&c&lERRO! &cEste jogador não solicitou teleporte.'
+  tpaccept-incorreto: '&c&lERRO! &cUtilize, /tpaccept (Jogador).'
+  tpaccept-sucesso: '&eO jogador &7%player% &efoi teleportado até você!'
+  tpaccept-sucesso1: '&eVocê foi teleportado até &7%player%&e.'
+  tpdeny-incorreto: '&c&lERRO! &cUtilize, /tpdeny (Jogador).'
+  tpdeny-sucesso: '&eVocê recusou o pedido de teleporte de &7%player%&e.'
+  tpdeny-sucesso1: '&cO jogador &7%player% &crecusou o seu pedido de teleporte.'
+  tpcancel-nao-tem: '&c&lERRO! &cVocê não realizou nenhum pedido de teleporte.'
+  tpcancel: '&eO seu pedido de teleporte a &7%player%&e foi cancelado.'
+  tpcancel1: '&eO jogador &7%player% &ecancelou o pedido de teleporte.'
+  player-voce: '&c&lERRO! &cEsse jogador é você!'
+  player-offline: '&c&lERRO! &cEsse jogador não foi encontrado!'
+  tpa-pendente: '&c&lERRO! &cVocê já tem um tpa pendente!'
+  tpa-expirou: '&cO pedido de teleporte para &7%target% &cexpirou.'
+  tpa-pedido: # Botão %aceitar% e %recusar% podem ser editados na aba de 'botões'
+    - ''
+    - '&eVocê recebeu um pedido de teleporte de &7%player%&e.'
+    - '&eClique para %aceitar% &r&eou %recusar%'
+    - ''
+    
+  tpa-enviado: # Botão %cancelar% pode ser editados na aba de 'botões'
+    - ''
+    - '&eVocê enviou um pedido de teleporte a &7%player%&e.'
+    - '&eClique para &c&l%cancelar%'
+    - ''
+    
+Botoes:
+  Aceitar:
+    texto: '&a&lACEITAR'
+    hover: '&aClique para aceitar este pedido.'
+  Recusar:
+    texto: '&c&lRECUSAR'
+    hover: '&cClique para recusar este pedido.'
+  Cancelar:
+    texto: '&c&lCANCELAR'
+    hover: '&aClique para cancelar o pedido.'

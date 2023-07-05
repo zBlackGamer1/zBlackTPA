@@ -1,0 +1,13 @@
+name: zBlackTPA
+version: 1.0.0
+author: zBlackGamer
+main: pt.com.zBlackTPA.Main
+commands:
+  tpa:
+    description: Realizar um pedido de teleporte.
+  tpaccept:
+    description: Aceitar um pedido de teleporte.
+  tpdeny:
+    description: Recusar um pedido de teleporte.
+  tpcancel:
+    description: Cancelar um pedido de teleporte.
